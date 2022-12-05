@@ -1,0 +1,50 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="1">
+            <item index="0" class="java.lang.String" itemvalue="name" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N802" />
+          <option value="N801" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="id" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="map.append" />
+          <option value="int.__getitem__" />
+          <option value="try_except_finally.exception" />
+          <option value="django.db.models.fields.CharField.__add__" />
+          <option value="blog.models.Post.objects" />
+          <option value="account.views.blogPost" />
+          <option value="account.views.vmblogHome" />
+          <option value="account.views.signup" />
+          <option value="account.views.login" />
+          <option value="account.views.logout" />
+          <option value="django.contrib.admin.modelAdmin" />
+          <option value="restapi.models.Student.objects" />
+          <option value="crud.crudapp.models.Student.objects" />
+          <option value="crudproject.crud.models.Student.objects" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

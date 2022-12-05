@@ -14,7 +14,7 @@ def get_data(id=None):  # to retrieve the data from the system
     print(data)
 
 
-# get_data()
+get_data()
 
 def post_data():  # to save the data into the system
     data = {
@@ -28,7 +28,7 @@ def post_data():  # to save the data into the system
     print(data)
 
 
-# post_data()
+post_data()
 
 
 def update_data():  # to update the data into the system
@@ -55,4 +55,4 @@ def delete_data(): # to delete the data into the database
     print(data)
 
 
-delete_data()
+# delete_data()
